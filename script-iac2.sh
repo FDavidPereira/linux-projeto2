@@ -3,7 +3,7 @@
 
 echo "Atualizando o servgidor.."
 apt-get update
-apt-get install upgrade -y
+apt-get upgrade -y
 apt-get install apache2 -y
 apt-get unzip -y
 
